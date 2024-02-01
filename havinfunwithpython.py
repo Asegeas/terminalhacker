@@ -7,9 +7,14 @@ import sys
 def slowPrint(string, speed=0.05):
     loop = 0
     for char in string:
-        if f"{char}{string[string.index(char) + 1]}" == "\n":
-            loop += 1
-            console.print("\n")
+        try:
+            if f"{char}{string[string.index(char) + 1]}" == "\n":
+                loop += 1
+                console.print("\n")
+        except:
+            console.print(f"{char}", style="rgb(32,194,14)", end='') # Print out the hacker text in hacker green
+            sys.stdout.flush()
+            time.sleep(speed)
         if loop == 1:
             loop -= 1
         else:

