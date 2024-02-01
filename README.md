@@ -2,6 +2,8 @@ Just a simple python program designed to make you look cool : )
 
 I included a reference to one of my favorite anolog horror series.
 
+Small warning: The code used in the JSON has not been tested please do not attempt to run any of it. While most of it is likely safe I did not intend for any user to try it and I do not want to feel responsible for any dammage the code may have.
+
 Functionality:
 First prompts user to say y/n this is a trick it is looking for a numerical input.
 The time it takes may vary but the default numerical value is 64. This means the sequence will loop 64 times which i estimate is at least 5 minutes or so of green text.
