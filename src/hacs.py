@@ -8,14 +8,14 @@ def slowPrint(string, speed=0.05):
     loop = 0
     for char in string:
         try:
-            if f"{char}{string[string.index(char) + 1]}" == "\n":
+            if f"{char}{string[string.index(char) + 1]}" == "\n": # if current char and the next char are \n then do \n dont just print it
                 loop += 1
                 console.print("\n")
         except:
             console.print(f"{char}", style="rgb(32,194,14)", end='') # Print out the hacker text in hacker green
             sys.stdout.flush()
             time.sleep(speed)
-        if loop == 1:
+        if loop == 1: # if you did \n then dont print the n just skip it go to the next number
             loop -= 1
         else:
             console.print(f"{char}", style="rgb(32,194,14)", end='') # Print out the hacker text in hacker green
